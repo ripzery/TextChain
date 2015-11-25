@@ -12,7 +12,25 @@ compile 'com.ripzery:textchain:1.0'
 
 ## Usage
 
-TODO: Write usage instructions
+        final ArrayList<String> words = new ArrayList<>();
+        words.add("Hello");
+        words.add("Phuchit");
+        words.add("Sirimongkolsathien");
+
+        TextChain textChain = new TextChain(words, tvHello);
+        textChain.setDuration(2000);
+        textChain.setOnTextUpdateListener(new OnTextUpdateListener() {
+            @Override
+            public void onNext(int index) {
+                Log.d("NextWord", "onNext: " + words.get(index));
+            }
+
+            @Override
+            public void onFinish() {
+                Log.d("Finish", "onFinish ");
+            }
+        });
+        textChain.build().start();
 
 ## Contributing
 
