@@ -4,6 +4,7 @@ TODO: Write a project description
 
 ## Installation
 
+compile 'com.ripzery:textchain:1.0'
 TODO: Describe the installation process
 
 ## Usage
