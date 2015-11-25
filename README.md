@@ -4,8 +4,11 @@ TODO: Write a project description
 
 ## Installation
 
+Gradle
+
+```
 compile 'com.ripzery:textchain:1.0'
-TODO: Describe the installation process
+```
 
 ## Usage
 
