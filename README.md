@@ -12,6 +12,7 @@ compile 'com.ripzery:textchain:1.0'
 
 ## Usage
 
+        TextView tvHello = (TextView) findViewById(R.id.tvHello);
         final ArrayList<String> words = new ArrayList<>();
         words.add("Hello");
         words.add("Phuchit");
